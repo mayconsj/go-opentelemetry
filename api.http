@@ -1,0 +1,9 @@
+@apiurl = http://localhost:8080
+
+### Show temperature
+POST {{apiurl}} HTTP/1.1
+Content-Type: application/json
+
+{
+    "cep": "49095000"
+}
